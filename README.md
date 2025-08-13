@@ -1,5 +1,25 @@
 # Exercise: Coupons - Data Visualization and Analysis
 
+## Running project
+
+Project is ready to run in Docker in a "production ready" environment.  
+Just clone the repo and run:
+
+```bash
+docker-compose up --build
+```
+
+You'll be able to view the project on your 'localhost'.  
+Bear in mind that demo data is seeded on building stage, so DB is populated.
+
+### Running backend manually
+
+Please refer to [Backend instructions](backend/README.md)
+
+### Running frontend manually
+
+Pleas refer to [Frontend instructions](frontend/README.md)
+
 ## Goals
 Your objective is to create a web application able to show relevant statistics from a set of coupons
 data with some interactivity.
@@ -44,3 +64,5 @@ The dataset is the file coupons.json which contains coupon data and discounts. E
 * Maintainability
 * Data loading and handling
 * RESTFull principes
+
+
